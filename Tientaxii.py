@@ -9,7 +9,7 @@ s=float(input('Nhập số km quãng đường:'))
 if s==1:
     sotien=20000 
 elif s<=3:
-    sotien=20000+2*13000
+    sotien=20000+(s-1)*13000
 elif s>=4 and s<=8:
     sotien=20000 + 2*13000 +(s-3)*12000
 elif s>8:
