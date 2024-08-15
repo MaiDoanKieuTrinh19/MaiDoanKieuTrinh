@@ -23,7 +23,7 @@ if y>0 and y<2025:
                     print('Hợp lệ')
                 else:
                     print('Không hợp lệ')
-            if m==4 or m==6 or m==8 or m==9 or m==11:
+            if m==4 or m==6 or m==9 or m==11:
                 d=float(input('Nhập ngày:'))
                 if d>=1 and d<=30:
                     print('Hợp lệ')
@@ -44,7 +44,7 @@ if y>0 and y<2025:
                     print('Hợp lệ')
                 else:
                      print('Không hợp lệ')
-            if m==4 or m==6 or m==8 or m==9 or m==11:
+            if m==4 or m==6 or m==9 or m==11:
                 d=float(input('Nhập ngày:'))
                 if d>=1 and d<=30:
                      print('Hợp lệ')
