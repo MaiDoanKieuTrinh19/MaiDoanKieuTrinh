@@ -16,6 +16,6 @@ elif s>8:
     sotien=20000+ 2*13000+ 5*12000+(s-8)*10000
 if sotien>100000:
     tongsotien=sotien*(92/100)
-else:
+elif sotien<=100000:
     tongsotien= sotien 
 print('Số tiền taxi là:', tongsotien)
