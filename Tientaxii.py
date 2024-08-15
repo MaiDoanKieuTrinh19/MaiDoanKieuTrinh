@@ -14,7 +14,7 @@ elif s>=4 and s<=8:
     sotien=20000 + 2*13000 +(s-3)*12000
 elif s>8:
     sotien=20000+ 2*13000+ 5*12000+(s-8)*10000
-if sotien>100:
+if sotien>100000:
     tongsotien=sotien*(92/100)
 else:
     tongsotien= sotien 
